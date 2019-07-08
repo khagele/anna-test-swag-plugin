@@ -7,7 +7,7 @@
       "name": "anna"
     }
   ],
-  "type": "shopware-platform-plugin",
+  "type": "shopware-plugin",
   "autoload": {
     "psr-4": {
       "PicqerOrderPusher\\": ""
