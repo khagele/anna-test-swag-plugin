@@ -27,5 +27,6 @@
       "de-DE": "Beispiel für Shopware",
       "en-GB": "Example for Shopware"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
