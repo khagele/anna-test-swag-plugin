@@ -52,10 +52,6 @@ class PicqerOrderPusher extends Plugin
 
     public function pushOrder()
     {
-        if (file_exists(__DIR__ . '/vendor/autoload.php')) {
-            require_once __DIR__ . '/vendor/autoload.php';
-        }
-
         $config = Shopware()->Container()->get('picqer_order_pusher.config');
         $orderData = $this->getOrderPusherData();
 
