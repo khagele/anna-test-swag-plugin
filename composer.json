@@ -20,7 +20,7 @@
     }
   ],
   "extra": {
-    "shopware-plugin-class": "PicqerOrderPusher\\BundleExample",
+    "shopware-plugin-class": "PicqerOrderPusher\\PicqerOrderPusher",
     "copyright": "(c) by shopware AG",
     "label": {
       "de-DE": "Beispiel für Shopware",
