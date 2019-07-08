@@ -1,7 +1,7 @@
 {
   "name": "annajeanine/test",
   "description": "Picqer Extended Integration for Shopware",
-  "version": "v1.9",
+  "version": "v1.9.1",
   "license": "MIT",
   "type": "shopware-plugin",
   "extra": {
