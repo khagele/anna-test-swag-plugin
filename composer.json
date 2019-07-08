@@ -1,0 +1,25 @@
+{
+  "name": "swag/bundle-example",
+  "description": "Bundle example",
+  "version": "v1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shopware AG"
+    }
+  ],
+  "type": "shopware-platform-plugin",
+  "autoload": {
+    "psr-4": {
+      "PicqerOrderPusher\\": ""
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "PicqerOrderPusher\\BundleExample",
+    "copyright": "(c) by shopware AG",
+    "label": {
+      "de-DE": "Beispiel für Shopware",
+      "en-GB": "Example for Shopware"
+    }
+  }
+}
