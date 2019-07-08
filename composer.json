@@ -1,17 +1,15 @@
 {
   "name": "annajeanine/test",
   "description": "Bundle example",
-  "version": "v1.4",
+  "version": "v1.5",
   "authors": [
     {
       "name": "anna"
     }
   ],
   "type": "shopware-plugin",
-  "autoload": {
-    "psr-4": {
-      "PicqerOrderPusher\\": ""
-    }
+  "extra": {
+    "installer-name": "PicqerOrderPusher"
   },
   "repositories": [
     {
@@ -19,13 +17,5 @@
       "url": "https://github.com/annajeanine/anna-test-swag-plugin"
     }
   ],
-  "extra": {
-    "shopware-plugin-class": "PicqerOrderPusher\\PicqerOrderPusher",
-    "copyright": "(c) by shopware AG",
-    "label": {
-      "de-DE": "Beispiel für Shopware",
-      "en-GB": "Example for Shopware"
-    }
-  },
   "minimum-stability": "dev"
 }
