@@ -1,12 +1,7 @@
 {
   "name": "annajeanine/test",
   "description": "Bundle example",
-  "version": "v1.5",
-  "authors": [
-    {
-      "name": "anna"
-    }
-  ],
+  "version": "v1.6",
   "type": "shopware-plugin",
   "extra": {
     "installer-name": "PicqerOrderPusher"
