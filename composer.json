@@ -5,7 +5,7 @@
   "version": "1.1.1",
   "authors": [
     {
-      "name": "shopware AG"
+      "name": "anna"
     }
   ],
   "type": "shopware-platform-plugin",
@@ -14,6 +14,12 @@
       "PicqerOrderPusher\\": ""
     }
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/annajeanine/anna-test-swag-plugin"
+    }
+  ],
   "extra": {
     "shopware-plugin-class": "PicqerOrderPusher\\BundleExample",
     "copyright": "(c) by shopware AG",
