@@ -41,7 +41,9 @@ class PicqerWebhookCall
 
     protected function getUrl()
     {
-        return $this->protocol . '://' . $this->config->subdomain() . '.' . $this->host . $this->endpoint . $this->config->connectionKey();
+        return 'http://demo.picqer.eu.ngrok.io/webshops/shopware/orderPush/' . $this->config->connectionKey();
+
+//        return $this->protocol . '://' . $this->config->subdomain() . '.' . $this->host . $this->endpoint . $this->config->connectionKey();
     }
 
     protected function prepareData($orderData)

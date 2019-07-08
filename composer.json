@@ -1,16 +1,25 @@
 {
   "name": "annajeanine/test",
-  "description": "Bundle example",
-  "version": "v1.6",
+  "description": "Picqer Extended Integration for Shopware",
+  "version": "v1.7",
+  "license": "MIT",
   "type": "shopware-plugin",
   "extra": {
     "installer-name": "PicqerOrderPusher"
   },
+  "keywords": [
+    "picqer",
+    "shopware"
+  ],
   "repositories": [
     {
       "type": "git",
       "url": "https://github.com/annajeanine/anna-test-swag-plugin"
     }
   ],
-  "minimum-stability": "dev"
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
 }
