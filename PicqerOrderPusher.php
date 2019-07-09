@@ -37,6 +37,10 @@ class PicqerOrderPusher extends Plugin
 
     public function uninstall(UninstallContext $context)
     {
+        if ($context->keepUserData()) {
+            return;
+        }
+        
         parent::uninstall($context);
     }
 
